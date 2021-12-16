@@ -217,3 +217,24 @@ footer ul li a{
 	border-radius: 0;
 	padding: 15px;
 }
+.new-arrival-about{
+	height: 30vh;
+	padding: 5px;
+}
+.new-arrival-about div{
+	background-size: cover;
+	height: 80%;
+	background-repeat: no-repeat;
+}
+.what-we-do img{
+	width: 100%;
+}
+
+.delivery-logos img{
+	margin: 15px;
+}
+.new-arrival-about p a{
+	color: #212529;
+	font-size: 17px;
+	font-weight: bold;
+}
