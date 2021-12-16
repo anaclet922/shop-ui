@@ -1,0 +1,124 @@
+body{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#top-menu{
+	background-color: #270841;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px;
+}
+#top-menu a{
+	background-color: #FEFEFE;
+	color: #303841;
+	border-radius: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.no-padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.main-menu{
+	background-color: #E3C56B;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.main-menu ul li a{
+	font-size: 25px;
+}
+.main-menu ul li a i{
+	font-size: 30px;
+}
+.main-menu ul .active, .main-menu ul li a:hover{
+	background-color: #fff;
+}
+.main-menu .navbar-nav{
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+.flag{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.form-inline{
+	background-color: #FAF4E4;
+	padding: 10px;
+	border-radius: 5px;
+}
+.form-inline input{
+	background-color: #FAF4E4;
+	border: 0px;
+}
+.form-inline button{
+	background-color: #DBBE67;
+	border: 0px;
+	color: white;
+}
+.logo{
+	width: 67px;
+}
+.category-menu{
+	border-top: 1px solid #BABCBF;
+	border-bottom: 1px solid #BABCBF;
+}
+.category-menu ul li a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.section-top{
+	background-size: cover;
+	height: 55vh;
+	background-repeat: no-repeat;
+}
+.section-middle{
+	background-size: cover;
+	height: 65vh;
+	background-repeat: no-repeat;
+}
+.section-top-middle{
+	background-color: #E3C56B;
+	vertical-align: middle;
+	height: 55vh;
+	padding-top: 10vh;
+}
+.btn-custom{
+	background-color: #26083F;
+	color: #fff;
+	border-radius: 0;
+}
+.btn-custom-link{
+	text-decoration: underline;
+}
+.section-middle-middle{
+	width: 200px;
+	background-color: #fff;
+	position: absolute;
+	right: 45%;
+	z-index: 10;
+	padding: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	top: 35%;
+	font-size: 14px;
+}
+.section-middle-middle a{
+	font-size: 13px;
+}
+.section-collection{
+	height: 65vh;
+	padding: 15px;
+}
+.section-collection div{
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+.section-collection a{
+	margin-top: 10px;
+	color: #22262A;
+}
