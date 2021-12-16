@@ -175,3 +175,45 @@ footer ul li a{
 .social-media-section a img{
 	width: 40px;
 }
+.subscribe-section .form-inline{
+	background-color: #000000;
+	padding: 10px;
+	border-radius: 5px;
+}
+.subscribe-section .form-inline input{
+	background-color: #000000;
+	border: 0px;
+	width: 65%;
+}
+.subscribe-section .form-inline button{
+	background-color: #666666;
+	border: 0px;
+	color: white;
+	width: 30%;
+}
+.filter-menu{
+	background-color: #F4F4F4;
+}
+.filter-menu ul .active{
+	background-color: #CFCFCF;
+}
+.filter-menu .navbar-nav{
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+.section-men{
+	height: 87vh;
+	padding: 5px;
+	cursor: pointer;
+}
+.section-men div{
+	background-size: cover;
+	height: 80%;
+	background-repeat: no-repeat;
+}
+.btn-custom-1{
+	background-color: #212529;
+	color: white;
+	border-radius: 0;
+	padding: 15px;
+}
