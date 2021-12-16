@@ -44,16 +44,16 @@ body{
 	height: 30px;
 	border-radius: 50%;
 }
-.form-inline{
+.logo-menu .form-inline{
 	background-color: #FAF4E4;
 	padding: 10px;
 	border-radius: 5px;
 }
-.form-inline input{
+.logo-menu .form-inline input{
 	background-color: #FAF4E4;
 	border: 0px;
 }
-.form-inline button{
+.logo-menu .form-inline button{
 	background-color: #DBBE67;
 	border: 0px;
 	color: white;
@@ -118,7 +118,60 @@ body{
 	height: 100%;
 	background-repeat: no-repeat;
 }
-.section-collection a{
+.section-collection a, .section-services a{
 	margin-top: 10px;
 	color: #22262A;
+}
+.section-services, .section-stories{
+	height: 50vh;
+	padding: 5px;
+}
+.section-services .title{
+	font-size: 19px;
+	font-weight: bold;
+}
+.section-services div, .section-stories div{
+	background-size: cover;
+	height: 80%;
+	background-repeat: no-repeat;
+}
+.italic{
+	font-style: italic;
+}
+.underline{
+	border-bottom: 2px solid #303841;
+	font-size: 14px;
+	color: #303841;
+	font-weight: bold;
+}
+
+footer{
+	margin-top: 30px;
+	background-color: #303841;
+	padding-top: 40px;
+}
+footer ul li{
+	list-style-type: none;
+}
+footer ul li a{
+	color: #fff;
+}
+.subscribe-section h5, .social-media-section h5{
+	color: #fff;
+	font-size: 17px;
+}
+.subscribe-section span{
+	color: #fff;
+	font-size: 13px;
+}
+.subscribe-section span i{
+	font-size: 10px;
+}
+.bottom-section a{
+	color: #fff;
+	font-size: 15px;
+	margin: 10px;
+}
+.social-media-section a img{
+	width: 40px;
 }
